@@ -1,0 +1,1 @@
+## es5.js - zaimplementować ćwieczenia zdefiniowane w pliku `es5_.js`, do uruchomienia wykorzystać REPL node.js w VS Code

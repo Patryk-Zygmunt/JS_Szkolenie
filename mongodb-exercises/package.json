@@ -1,0 +1,20 @@
+{
+  "name": "mongodb-exercises",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://marcinnajder@bitbucket.org/marcinnajder/mongodb-exercises.git"
+  },
+  "author": "Marcin Najder",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/marcinnajder/mongodb-exercises#readme",
+  "devDependencies": {
+    "mongo-shell-assistant": "0.0.5",
+    "mongodb": "^2.2.22"
+  }
+}

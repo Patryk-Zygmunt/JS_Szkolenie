@@ -1,0 +1,8 @@
+{
+    "editor.formatOnSave": true,
+    "tslint.enable": true,
+    "files.exclude": {
+        "dist__": true
+    },
+    "typescript.tsdk": "node_modules/typescript/lib"
+}

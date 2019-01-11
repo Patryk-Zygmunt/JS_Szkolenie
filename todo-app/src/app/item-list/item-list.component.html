@@ -1,0 +1,12 @@
+<h2>lista elementow</h2>
+<app-search [buttonText]="'szukaj'" (searchClicked)="onSearch($event)"></app-search>
+<div>
+  <ul>
+    <li *ngFor="let item of items">
+      <button (click)="deleteItem(item)">usun</button>
+      <button (click)="editItem(item)">edytuj</button> {{item.name}}
+    </li>
+  </ul>
+</div>
+<button (click)="refreshItems()">odswiez</button>
+<button (click)="addItem()">dodaj</button>

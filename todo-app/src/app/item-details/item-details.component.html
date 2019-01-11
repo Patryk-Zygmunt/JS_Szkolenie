@@ -1,0 +1,10 @@
+<h3>
+  {{id === null ? "dodawanie" : "edycja" }} {{model?.name}}
+</h3>
+<form *ngIf="model" #myForm="ngForm" (ngSubmit)="submitForm()">
+  <label> name: <input type="text" [(ngModel)]="model.name" name="name"/> </label>
+  <div>
+    <button type="submit">zapisz</button>
+    <button type="button" (click)="cancelForm()">anuluj</button>
+  </div>
+</form>

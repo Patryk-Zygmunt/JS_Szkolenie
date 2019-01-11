@@ -1,0 +1,44 @@
+{
+    // Use IntelliSense to learn about possible Node.js debug attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "es6.js",
+            "program": "${workspaceRoot}/02_es6/es6.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "todo server",
+            "program": "${workspaceRoot}/dist/05_express/app/index.js",
+            "sourceMaps": true,
+            "outFiles": [
+                "${workspaceRoot}/dist/**/*.js"
+            ]
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "es6.ts",
+            "program": "${workspaceRoot}/dist/03_ts/es6.js",
+            "sourceMaps": true,
+            "outFiles": [
+                "${workspaceRoot}/dist/**/*.js"
+            ]
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "filesTest.ts",
+            "program": "${workspaceRoot}/dist/03_ts/filesTest.js",
+            "sourceMaps": true,
+            "outFiles": [
+                "${workspaceRoot}/dist/**/*.js"
+            ]
+        }
+    ]
+}
